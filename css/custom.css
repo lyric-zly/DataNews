@@ -1,0 +1,184 @@
+/* your styles go here */
+/*
+*
+=====================
+SCROLLER
+=====================
+*
+*/
+.scroller{
+    bottom: 30px;
+    color: rgba(235, 235, 235, 0.5);
+    display: inline-block;
+    font-size: 40px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 120px;
+    scroll-behavior: smooth;
+    z-index: 100;
+}
+.scroller:focus{
+    color: inherit;
+    text-decoration: none;
+}
+.scroller .scroller-text{
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #ececec;
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.scroller .scroller-button{
+    border: 2px solid rgba(235, 235, 235, 0.5);
+    display: inline-block;
+    padding: 6px 5px 4px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    scroll-behavior: smooth;
+}
+.scroller:hover{
+    text-decoration: none;
+    color: #ebebeb;
+}
+.scroller:hover .scroller-text{
+    text-decoration: none;
+    opacity: 1;
+    transform: translateY(-10px);
+}
+.scroller:hover .scroller-button{
+    border: 2px solid #ebebeb;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*
+*
+=====================
+fadeBox
+=====================
+*
+*/
+.fadeBox{
+    width:800px;
+}
+.fade{
+    color:white;
+    opacity:0;
+}
+#fade1{
+    font-size:20px;
+    padding: 100px 0px 0px 100px;
+    animation: fade 5s ease 0s infinite;
+}
+#fade2{
+    font-size:20px;
+    padding: 100px 0px 0px 200px;
+    animation: fade 5s ease 3s infinite;
+}
+#fade3{
+    font-size:18px;
+    padding: 10px 0px 0px 50px;
+    animation: fade 6s ease 1s infinite;
+}
+#fade4{
+    font-size:28px;
+    padding: 100px 0px 0px 200px;
+    animation: fade 3s ease 2s infinite;
+}
+#fade5{
+    font-size:18px;
+    padding: 50px 0px 50px 300px;
+    animation: fade 3s ease 6s infinite;
+}
+#fade6{
+    font-size:18px;
+    padding: 10px 0px 0px 200px;
+    animation: fade 7s ease 1s infinite;
+}
+#fade7{
+    font-size:20px;
+    line-height: 50px;
+    padding: 10px 0px 20px 70px;
+    animation: fade 5s ease 1s infinite;
+}
+#fade8{
+    font-size:20px;
+    padding: 50px 0px 0px 300px;
+    animation: fade 4s ease 4s infinite;
+}
+#fade9{
+    font-size:20px;
+    padding: 10px 0px 0px 100px;
+    animation: fade 3s ease 5s infinite;
+}
+#fade10{
+    font-size:18px;
+    padding: 10px 0px 0px 70px;
+    animation: fade 4s ease 2s infinite;
+}
+#fade11{
+     font-size:20px;
+     padding: 10px 0px 0px 250px;
+     animation: fade 6s ease 1s infinite;
+ }
+#fade12{
+    font-size:20px;
+    padding: 10px 0px 0px 170px;
+    animation: fade 3s ease 4s infinite;
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes fade{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@-ms-keyframes fade{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@-o-keyframes fade{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+/*
+*
+=====================
+Section Borders
+=====================
+*
+*/
+.white-section{
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color: #eee;
+    padding-bottom: 100px;
+}
+
+.grey-section{
+    padding-bottom: 100px;
+    background-color: #eee;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color: #ffffff;
+
+}
