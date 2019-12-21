@@ -144,7 +144,7 @@ INTRO SECTION
   min-height: 600px;
   padding: 0;
   background-size: cover;
-  background-position: center center;
+  background-position: 75% center;
   overflow: hidden;
   background-attachment: fixed;
 }
@@ -201,7 +201,6 @@ INTRO SECTION
 .content {
   position:absolute;
   width: 100%;
-  left: -15%;
   bottom:10%;
   /* title position
   -webkit-transform: translate(-15%, -30%);

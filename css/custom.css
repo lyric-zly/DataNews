@@ -71,8 +71,9 @@ fadeBox
 *
 */
 .fadeBox{
-    width:800px;
+    max-width:800px;
 }
+
 .fade{
     color:white;
     opacity:0;
