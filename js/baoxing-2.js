@@ -292,7 +292,7 @@ option = {
     },
     series: [{
         type: 'sunburst',
-        center: ['50%', 250],
+        center: ['50%', '53%'],
         // padding:[5,30,15,5],//
         data: data,
         sort: function (a, b) {
@@ -313,10 +313,10 @@ option = {
         },
         levels: [{}, {
             r0: 0,
-            r: 108
+            r: '52.0%'//108
         }, {
-            r0: 115,
-            r: 140,
+            r0: '54.5%',//115,
+            r: '68.0%',//140
             itemStyle: {
                 shadowBlur: 1,
                 shadowColor: lineColor,
@@ -329,8 +329,8 @@ option = {
                 color: colors[0]
             }
         }, {
-            r0: 130,
-            r: 145,
+            r0: '63.0%',//130
+            r: '70.0%',//145
             itemStyle: {
                 shadowBlur: 80,
                 // shadowColor: colors[0],

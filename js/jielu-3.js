@@ -59,7 +59,7 @@ option = {
                     // 红 B96064
                 }
             },{
-                name: '亲属（不包含父母）',
+                name: '亲属',
                 itemStyle: {
                     color: '#4d6990',
                     borderColor:'#4d6990'
@@ -78,7 +78,7 @@ option = {
                     borderColor:'#c66e5d'
                 }
             },{
-                name: '亲属（不包含父母） ',
+                name: '亲属 ',
                 itemStyle: {
                     color: '#4d6990',
                     borderColor:'#4d6990'
@@ -166,7 +166,7 @@ option = {
             value: 15
         },{
             source: '共同居住',
-            target: '亲属（不包含父母）',
+            target: '亲属',
             value: 9
         }, {
             source: '父亲',
@@ -185,15 +185,15 @@ option = {
             target: '未采取措施',
             value: 7
         }, {
-            source: '亲属（不包含父母）',
+            source: '亲属',
             target: '报警',
             value: 2
         }, {
-            source: '亲属（不包含父母）',
+            source: '亲属',
             target: '未采取措施',
             value: 6
         }, {
-            source: '亲属（不包含父母）',
+            source: '亲属',
             target: '对抗施暴者',
             value: 1
         }, {
@@ -206,7 +206,7 @@ option = {
             value: 31
         }, {
             source: '不共同居住',
-            target: '亲属（不包含父母） ',
+            target: '亲属 ',
             value: 16
         }, {
             source: '不共同居住',
@@ -253,23 +253,23 @@ option = {
             target: '未采取措施',
             value: 9
         }, {
-            source: '亲属（不包含父母） ',
+            source: '亲属 ',
             target: '报警',
             value: 8
         }, {
-            source: '亲属（不包含父母） ',
+            source: '亲属 ',
             target: '未采取措施',
             value: 4
         }, {
-            source: '亲属（不包含父母） ',
+            source: '亲属 ',
             target: '网络曝光',
             value: 1
         }, {
-            source: '亲属（不包含父母） ',
+            source: '亲属 ',
             target: '求助组织',
             value: 1
         }, {
-            source: '亲属（不包含父母） ',
+            source: '亲属 ',
             target: '变更抚养权',
             value: 2
         }, {
