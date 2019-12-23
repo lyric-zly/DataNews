@@ -92,8 +92,8 @@ option = {
             }, {
                 name: '邻居',
                 itemStyle: {
-                    color: '#c5ccd2',
-                    borderColor:'#c5ccd2'
+                    color: '#8D8D8E',
+                    borderColor:'#8D8D8E'
                 }
             }, {
                 name: '未采取措施',

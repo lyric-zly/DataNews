@@ -206,11 +206,11 @@ Section Borders
     border-bottom-style:solid;
     border-bottom-width:1px;
     border-bottom-color: #eee;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .grey-section{
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     background-color: #eee;
     border-bottom-style:solid;
     border-bottom-width:1px;
