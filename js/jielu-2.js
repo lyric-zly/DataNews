@@ -185,7 +185,7 @@ option = {
                 borderColor:'#6B828A'
             }
         }, {
-            name: '求助路人等',
+            name: '求助路人',
             itemStyle: {
                 color: '#54676E',
                 borderColor:'#54676E'
@@ -197,7 +197,7 @@ option = {
                 borderColor:'#44545A'
             }
         },{
-            name: '求助社会组织',
+            name: '求助组织',
             itemStyle: {
                 color: '#44545A',
                 borderColor:'#44545A'
@@ -265,7 +265,7 @@ option = {
             value: 8
         },{
             source: '求助',
-            target: '求助路人等',
+            target: '求助路人',
             value: 3
         },{
             source: '求助',
@@ -281,7 +281,7 @@ option = {
             value: 3
         },{
             source: '求助',
-            target: '求助社会组织',
+            target: '求助组织',
             value: 1
         },{
             source: '求助',

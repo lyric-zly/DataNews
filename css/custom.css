@@ -232,8 +232,9 @@ Additions and Comments
 }
 .comments{
     /*padding-left: 20px;*/
+    font-size: 0.5rem;
     text-align: left;
-    color: #c6ccd1;
+    color: #7E7E7E;
 }
 
 @media (max-width: 1199.98px) {

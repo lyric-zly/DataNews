@@ -102,7 +102,7 @@ option = {
                     borderColor:'#c5ccd2'
                 }
             }, {
-                name: '要求撤销对施暴者的上诉',
+                name: '要求撤销对\n施暴者上诉',
                 itemStyle: {
                     color: '#6c8bc4',
                     borderColor:'#6c8bc4'
@@ -114,13 +114,13 @@ option = {
                     borderColor:'#799AD0'
                 }
             }, {
-                name: '求助妇联、法院等组织',
+                name: '求助组织',
                 itemStyle: {
                     color: '#6D8ABB',
                     borderColor:'#6D8ABB'
                 }
             }, {
-                name: '联系家长并劝说',
+                name: '劝说家长',
                 itemStyle: {
                     color: '#5D76A2',
                     borderColor:'#5D76A2'
@@ -132,7 +132,7 @@ option = {
                     borderColor:'#4F668C'
                 }
             }, {
-                name: '安置未成年人',
+                name: '安置孩子',
                 itemStyle: {
                     color: '#4F668C',
                     borderColor:'#4F668C'
@@ -144,13 +144,13 @@ option = {
                     borderColor:'#425575'
                 }
             }, {
-                name: '与施暴者对抗',
+                name: '对抗施暴者',
                 itemStyle: {
                     color: '#425575',
                     borderColor:'#425575'
                 }
             }, {
-                name: '要求法院变更抚养权',
+                name: '变更抚养权',
                 itemStyle: {
                     color: '#425575',
                     borderColor:'#425575'
@@ -178,7 +178,7 @@ option = {
             value: 6
         }, {
             source: '母亲',
-            target: '求助妇联、法院等组织',
+            target: '求助组织',
             value: 2
         }, {
             source: '母亲',
@@ -194,7 +194,7 @@ option = {
             value: 6
         }, {
             source: '亲属（不包含父母）',
-            target: '与施暴者对抗',
+            target: '对抗施暴者',
             value: 1
         }, {
             source: '不共同居住',
@@ -218,11 +218,11 @@ option = {
             value: 23
         },{
             source: '学校',
-            target: '联系家长并劝说',
+            target: '劝说家长',
             value: 9
         }, {
             source: '学校',
-            target: '求助妇联、法院等组织',
+            target: '求助组织',
             value: 1
         },  {
             source: '学校',
@@ -238,7 +238,7 @@ option = {
             value: 6
         }, {
             source: '邻居',
-            target: '安置未成年人',
+            target: '安置孩子',
             value: 2
         }, {
             source: '邻居',
@@ -246,7 +246,7 @@ option = {
             value: 3
         }, {
             source: '邻居',
-            target: '与施暴者对抗',
+            target: '对抗施暴者',
             value: 1
         },  {
             source: '邻居',
@@ -266,11 +266,11 @@ option = {
             value: 1
         }, {
             source: '亲属（不包含父母） ',
-            target: '求助妇联、法院等组织',
+            target: '求助组织',
             value: 1
         }, {
             source: '亲属（不包含父母） ',
-            target: '要求法院变更抚养权',
+            target: '变更抚养权',
             value: 2
         }, {
             source: '父亲 ',
@@ -282,7 +282,7 @@ option = {
             value: 1
         }, {
             source: '父亲 ',
-            target: '要求撤销对施暴者的上诉',
+            target: '要求撤销对\n施暴者上诉',
             value: 1
         }, {
             source: '母亲 ',
@@ -290,7 +290,7 @@ option = {
             value: 11
         }, {
             source: '母亲 ',
-            target: '求助妇联、法院等组织',
+            target: '求助组织',
             value: 3
         }, {
             source: '母亲 ',
@@ -302,7 +302,7 @@ option = {
             value: 3
         }, {
             source: '母亲 ',
-            target: '要求撤销对施暴者的上诉',
+            target: '要求撤销对\n施暴者上诉',
             value: 1
         }],
         lineStyle: {

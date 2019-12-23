@@ -8,7 +8,7 @@ $(function () {
     option = {
 
         title: {
-            text: '家庭暴力中受暴未成年人年龄分布',
+            text: '受暴未成年人年龄分布',
             // subtext:'',
             textStyle: {
                 fontSize: 20
