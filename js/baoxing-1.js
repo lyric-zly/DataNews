@@ -9,20 +9,19 @@ $(function () {
 
         title: {
             text: '受暴未成年人年龄分布',
-            // subtext:'',
+            subtext:'  ',
             textStyle: {
-                fontSize: 20
+                fontSize: 20,
             },
-            // subtextStyle: {
-            //     fontSize: 12,
-            //     bottom: 'left'
+            subtextStyle: {
+                 fontSize: 12,
+                 bottom: 'left'
             //     // bottom:30,
-            // },
-            // itemGap: 390,//主副标题间距
+             },
+            itemGap: 800,//主副标题间距
             x: 'center',
             left: 'center'
         },
-
         tooltip: {
             trigger: 'axis',
             axisPointer: {            // 坐标轴指示器，坐标轴触发有效
@@ -44,7 +43,8 @@ $(function () {
         legend: {
             data: ['女', '男'],
             x: 'right',
-            y: 'top'
+            y: 'top',
+            padding:[40,0,0,0]
         },
         grid: {
             left: 1,
