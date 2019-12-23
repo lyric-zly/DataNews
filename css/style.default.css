@@ -140,13 +140,15 @@ INTRO SECTION
   width: 100%;
   height: 100%;
   color: #fff;
-  background-color: #111;
+  background-color: #000;
   min-height: 600px;
   padding: 0;
   background-size: cover;
-  background-position: 75% center;
+  background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
+  filter: brightness(200%);
+
 }
 
 .intro h1,
@@ -201,14 +203,16 @@ INTRO SECTION
 .content {
   position:absolute;
   width: 100%;
+  left: -15%;
   bottom:10%;
+
   /* title position
   -webkit-transform: translate(-15%, -30%);
   transform: translate(-15%, -20%);
    */
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  z-index: 10;
+  z-index:0;
 }
 
 @media (max-width: 767.98px) {

@@ -27,8 +27,8 @@ SCROLLER
 .scroller .scroller-text{
     text-decoration: none;
     display: block;
-    font-size: 10px;
-    letter-spacing: 2.5px;
+    font-size: 15px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #ececec;
     -webkit-transform: translateY(5px);
@@ -70,74 +70,108 @@ fadeBox
 =====================
 *
 */
-.fadeBox{
-    max-width:800px;
+l#fadebox{
+    left:-3%;
 }
-
+@media (max-width: 767.98px) {
+    #fadebox{
+        text-align: center;
+        left:-20%;
+    }
+}
 .fade{
-    color:white;
     opacity:0;
 }
+.fadeImg{
+    opacity:1;
+    width: 9%;
+}
+
 #fade1{
-    font-size:20px;
     padding: 100px 0px 0px 100px;
-    animation: fade 5s ease 0s infinite;
+    animation: fade 2s ease 0ms infinite;
+    -webkit-animation: fade 2s ease 0ms infinite;
+}
+
+#img1{
+
+    animation: fade 2s ease 0ms infinite;
+    -webkit-animation: fade 2s ease 0ms infinite;
 }
 #fade2{
-    font-size:20px;
     padding: 100px 0px 0px 200px;
-    animation: fade 5s ease 3s infinite;
+    animation: fade 2s ease 3000ms infinite;
+    -webkit-animation: fade 2s ease 3000ms infinite;
 }
 #fade3{
-    font-size:18px;
     padding: 10px 0px 0px 50px;
-    animation: fade 6s ease 1s infinite;
+    animation: fade 2s ease 1000ms infinite;
+    -webkit-animation: fade 2s ease 1000ms infinite;
 }
 #fade4{
-    font-size:28px;
-    padding: 100px 0px 0px 200px;
-    animation: fade 3s ease 2s infinite;
+    padding: 70px 0px 0px 200px;
+    animation: fade 2s ease 2000ms infinite;
+    -webkit-animation: fade 2s ease 2000ms infinite;
 }
 #fade5{
-    font-size:18px;
-    padding: 50px 0px 50px 300px;
-    animation: fade 3s ease 6s infinite;
+    padding: 30px 0px 50px 300px;
+    animation: fade 2s ease 6000ms infinite;
+    -webkit-animation: fade 2s ease 6000ms infinite;
 }
 #fade6{
-    font-size:18px;
     padding: 10px 0px 0px 200px;
-    animation: fade 7s ease 1s infinite;
+    animation: fade 2s ease 1500ms infinite;
+    -webkit-animation: fade 2s ease 1500ms infinite;
 }
 #fade7{
-    font-size:20px;
-    line-height: 50px;
     padding: 10px 0px 20px 70px;
-    animation: fade 5s ease 1s infinite;
+    animation: fade 2s ease 1200ms infinite;
+    -webkit-animation: fade 2s ease 1200ms infinite;
 }
 #fade8{
-    font-size:20px;
     padding: 50px 0px 0px 300px;
-    animation: fade 4s ease 4s infinite;
+    animation: fade 2s ease 4000ms infinite;
+    -webkit-animation: fade 2s ease 4000ms infinite;
 }
 #fade9{
-    font-size:20px;
     padding: 10px 0px 0px 100px;
-    animation: fade 3s ease 5s infinite;
+    animation: fade 2s ease 5000ms infinite;
+    -webkit-animation: fade 2s ease 5000ms infinite;
 }
 #fade10{
-    font-size:18px;
-    padding: 10px 0px 0px 70px;
-    animation: fade 4s ease 2s infinite;
+    padding: 20px 0px 0px 70px;
+    animation: fade 2s ease 3500ms infinite;
+    -webkit-animation: fade 2s ease 3500ms infinite;
 }
 #fade11{
-     font-size:20px;
-     padding: 10px 0px 0px 250px;
-     animation: fade 6s ease 1s infinite;
+     padding: 20px 0px 0px 250px;
+     animation: fade 2s ease 1800ms infinite;
+    -webkit-animation: fade 2s ease 1800ms infinite;
  }
 #fade12{
-    font-size:20px;
-    padding: 10px 0px 0px 170px;
-    animation: fade 3s ease 4s infinite;
+    padding: 30px 0px 0px 170px;
+    animation: fade 2s ease 2200ms infinite;
+    -webkit-animation: fade 2s ease 2200ms infinite;
+}
+#fade13{
+    padding: 60px 0px 0px 100px;
+    animation: fade 2s ease 700ms infinite;
+    -webkit-animation: fade 2s ease 700ms infinite;
+}
+#fade14{
+    padding: 100px 0px 0px 200px;
+    animation: fade 2s ease 400ms infinite;
+    -webkit-animation: fade 2s ease 400ms infinite;
+}
+#fade15{
+    padding: 40px 0px 0px 50px;
+    animation: fade 2s ease 2100ms infinite;
+    -webkit-animation: fade 2s ease 2100ms infinite;
+}
+#fade16{
+    padding: 80px 0px 0px 200px;
+    animation: fade 2s ease 3200ms infinite;
+    -webkit-animation: fade 2s ease 3200ms infinite;
 }
 
 @keyframes fade{
@@ -146,18 +180,18 @@ fadeBox
     100%{opacity: 0;}
 }
 @-webkit-keyframes fade{
-    0%{opacity: 0;}
+    0%{opacity:0;}
     50%{opacity: 1;}
     100%{opacity: 0;}
 }
 @-ms-keyframes fade{
     0%{opacity: 0;}
-    50%{opacity: 1;}
+    50%{opacity: 95%;}
     100%{opacity: 0;}
 }
 @-o-keyframes fade{
     0%{opacity: 0;}
-    50%{opacity: 1;}
+    50%{opacity: 95%;}
     100%{opacity: 0;}
 }
 
@@ -183,3 +217,84 @@ Section Borders
     border-bottom-color: #ffffff;
 
 }
+/*
+*
+=====================
+Additions and Comments
+=====================
+*
+*/
+.intro-words {
+    font-size: 1.4375rem;
+    font-weight: 500;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.comments{
+    /*padding-left: 20px;*/
+    text-align: left;
+    color: #c6ccd1;
+}
+
+@media (max-width: 1199.98px) {
+    #mainTitle {
+        /*
+        margin-top: -50px;
+        */
+
+    }
+}
+@media (max-width: 767.98px) {
+    #mainTitle {
+        margin-top: -50px;
+    }
+}
+@media (max-width: 576px) {
+    #mainTitle {
+        margin-top: -120px;
+        padding-left: 15%;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+
+/*
+*
+=====================
+E-charts
+=====================
+*
+*/
+@media (max-width: 991.98px) {
+    #main2-container {
+        height: 500px;
+        width: 100%;
+
+    }
+    #main3-container {
+        height: 450px;
+
+    }
+    #main4-container {
+        height: 450px;
+
+    }
+}
+@media (max-width: 767.98px) {
+    #main1-container {
+        width: 100%;
+        height: 350px;
+    }
+    #main3-container {
+        width: 100%;
+        height: 400px;
+    }
+    #main4-container {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
+
