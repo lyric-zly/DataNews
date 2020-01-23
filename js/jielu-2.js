@@ -6,12 +6,6 @@ option = {
         textStyle: {
             fontSize: 20
         },
-        // \n数据说明：统计了未成年人受暴后的求助表现，共得到有效数据161个，13个表现数据不详
-        // subtext:'数据来源：慧科新闻数据库，检索时间为2016年3月1日到2019年11月27日',
-        // subtextStyle: {
-        //     fontSize: 12,
-        //            // bottom:30,
-        // },
         x:'center',
         top:'3'
     },
